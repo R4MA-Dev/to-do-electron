@@ -1,0 +1,17 @@
+{
+  "name": "lista-de-tareas-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npx electron-packager . Lista de Tareas --platform=win32 --arch=x64 --icon=icon.ico"
+  },
+  "keywords": [],
+  "author": "Ramiro Mercado",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^21.2.3",
+    "electron-packager": "^17.1.1"
+  }
+}

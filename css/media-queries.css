@@ -1,0 +1,39 @@
+@media (max-width: 1024px) {
+    .container{
+        width: 70vw;
+    }
+
+    input{
+        width: 50vw;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .container{
+        width: 75vw;
+    }
+
+    input{
+        width: 70vw;
+    }
+}
+
+
+
+
+@media (max-width: 500px) {
+    li p{
+        width: 50%;
+    }
+
+    .btn-delete{
+        width: 20%;
+    }
+
+    .btn-check{
+        width: 20%;
+    }
+}

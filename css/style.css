@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: rgb(30, 31, 31);
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: darkslategrey;
+}
+
+p#tareas-completadas{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+}
+
+p span#numero-completadas{
+    color: rgb(128, 0, 94);
+    font-size: 30px;
+}
+
+.container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.search{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    padding: 15px 10px;
+    outline: none;
+    width: 30vw;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.li-container{
+    background-color: white;
+    width: 100%;
+    color: darkslategray;
+    margin-top: 20px;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    background-color: rgb(128, 0, 94);
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+}
+
+li p{
+    margin: 0;
+    padding: 15px;
+    width: 80%;
+    word-wrap: break-word;
+    color: white;
+}
+
+.btn-delete{
+    margin-left: auto;
+    border: none;
+    background-color: #ac1c3d;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; 
+    width: 10%;
+    font-size: 1.2em;
+}
+
+.btn-delete:hover{
+    cursor: pointer;
+    background-color: lightseagreen;
+}
+
+.btn-check{
+    margin-left: auto;
+    border: none;
+    background-color: #308f1a;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    outline: none;
+    width: 10%;
+    font-size: 1.2em;
+}
+
+.btn-check:hover{
+    cursor: pointer;
+    background-color: lightseagreen;
+}
+
+.btn-add{
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    font-family: fantasy;
+    background-color: rgb(128, 0, 94);
+    font-size: 1.4rem;
+    outline: none;
+    border-radius: 0% 15% 15% 0%;
+}
+
+.btn-add:hover{
+    cursor: pointer;
+    background-color: darkcyan;
+}
+
+.empty{
+    color: darkslategrey;
+    text-align: center;
+}
+
+@keyframes opacidad {
+    0%{
+    opacity: 1.0;
+}
+    50%{
+    opacity: 0.5;
+}
+    100%{
+    opacity: 0;
+}
+}
