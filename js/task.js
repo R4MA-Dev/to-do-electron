@@ -97,14 +97,14 @@ const deleteTask = (event, msg, color, btn, node, boolean)=>{
 
     const brotherBtn = event.target.parentElement.childNodes[node];
     brotherBtn.style.display = "none";
-        
-    setTimeout(()=>{
-        if(boolean === true){
-            tasksCompleted += 1
-            localStorage.setItem("tareas-completadas", tasksCompleted)
-            spanTaskCompleted.textContent = tasksCompleted
-        }
 
+    if(boolean === true){
+        tasksCompleted += 1
+        localStorage.setItem("tareas-completadas", tasksCompleted)
+        spanTaskCompleted.textContent = tasksCompleted
+    }
+
+    setTimeout(()=>{
         const item = event.target.parentElement;
         ul.removeChild(item);
 
